@@ -1,0 +1,59 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build directories
+dist/
+build/
+out/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+*.iml
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore JavaScript cache files
+*.cache/
+*.temp/
+
+# Ignore macOS-specific files
+.AppleDouble
+.LSOverride
+
+# Ignore specific files
+# Replace 'filename.ext' with the actual file name
+filename.ext
+
+# Ignore all .zip files
+*.zip
+
