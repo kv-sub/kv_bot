@@ -42,7 +42,14 @@ kv_bot/
 ├── CMakeLists.txt         # Build system configuration
 ├── package.xml            # ROS package metadata
 └── README.md              # Project documentation
-
+- **config/**: Contains YAML configuration files for various components like sensors, controllers, and navigation systems.
+- **description/**: Holds robot model definitions using URDF and Xacro formats.
+- **launch/**: Contains launch files to automate the startup of different simulation scenarios.
+- **worlds/**: Stores Gazebo world files that define the environment for simulation.
+- **src/**: The main directory for custom ROS nodes and scripts that control various functionalities of the robot.
+- **CMakeLists.txt**: The build system configuration file for compiling the project.
+- **package.xml**: Provides metadata for the ROS package, including the package name, version, dependencies, and maintainers.
+- **README.md**: The project documentation file (you are currently reading this).
 ## Core Algorithms and Techniques
 
 ### 1. Path Planning and Obstacle Avoidance
