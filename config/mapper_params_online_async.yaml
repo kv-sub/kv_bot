@@ -15,7 +15,7 @@ slam_toolbox:
     base_frame: base_footprint
     scan_topic: /scan
     use_map_saver: true
-    mode: localization # mapping 
+    mode: localization #mapping  
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
@@ -24,7 +24,7 @@ slam_toolbox:
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true
 
-    debug_logging: false
+    debug_logging: true
     throttle_scans: 1
     transform_publish_period: 0.02 #if 0 never publishes odometry
     map_update_interval: 5.0

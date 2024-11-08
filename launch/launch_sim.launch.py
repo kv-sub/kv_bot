@@ -17,7 +17,7 @@ def generate_launch_description():
     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
-    package_name='kv_bot' #<--- CHANGE ME
+    package_name='kv_bot' 
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -68,7 +68,7 @@ def generate_launch_description():
     )
 
 
-    # Code for delaying a node (I haven't tested how effective it is)
+    # Code for delaying a node 
     # 
     # First add the below lines to imports
     # from launch.actions import RegisterEventHandler
