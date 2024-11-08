@@ -33,24 +33,15 @@
 ## Project Architecture
 
 The architecture of `kv_bot` follows a structured approach to ensure flexibility and scalability:
-### Explanation
-- **config/**: Contains YAML files for configuring sensors, controllers, and navigation settings.
-- **description/**: Holds URDF/Xacro files that define the robot model.
-- **launch/**: Includes launch files to start different robot functionalities in ROS.
-- **worlds/**: Gazebo world files used for simulating environments.
-- **scripts/**: Custom Python scripts for automation and additional features.
-- **src/**: Main source code directory with different ROS packages:
-  - **perception/**: Modules for object detection and computer vision.
-  - **navigation/**: Path planning and SLAM functionalities.
-  - **control/**: Robot control algorithms, including PID controllers.
-  - **utils/**: Helper scripts and utility functions.
-- **rviz/**: Configuration files for visualizing the robot and its environment in RViz.
-- **maps/**: Stores maps used for navigation.
-- **logs/**: Logs for debugging and analysis.
-- **CMakeLists.txt**: Configuration for building the ROS project.
-- **package.xml**: Defines package dependencies and metadata.
-
----
+kv_bot/
+├── config/                # Configuration files for sensors, controllers, and navigation
+├── description/           # Robot model definitions (URDF/Xacro)
+├── launch/                # Launch files for different simulation scenarios
+├── worlds/                # Gazebo worlds for simulation
+├── src/                   # Source code for custom nodes and functionalities
+├── CMakeLists.txt         # Build system configuration
+├── package.xml            # ROS package metadata
+└── README.md              # Project documentation
 
 ## Core Algorithms and Techniques
 
