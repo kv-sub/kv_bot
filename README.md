@@ -76,4 +76,4 @@
 - **ROS Community** for their comprehensive documentation and support.
 - **OpenCV and TensorFlow** for providing powerful computer vision tools.
 - Special thanks to [JoshNewans] for teaching and inspiring us to take up this project and for providing extensive (free) resources in building this project !!!.
-- Special thanks to [Dr. K.B Sundharakumar] for guiding and mentoring us to go through with this project and giving us complete freedom and encouragement in exploring all the available options and supporting us financially !!!
+- Special thanks to [Dr. K.B Sundharakumar] for guiding and mentoring us to go through with this project and giving us complete freedom and encouragement in exploring all the available options and supporting us !!!
